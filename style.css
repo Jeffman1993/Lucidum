@@ -1,0 +1,99 @@
+body{
+    /*background-color: #1e1e1e;*/
+    background-image: url('imgs/back.jpg');
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #dddddd;
+}
+#dashboard{
+    background-color: rgba(51, 51, 51, 0.65);
+    margin-left: 6em;
+    margin-right: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    color: #dddddd;
+}
+#header{
+    font-size: 3em;
+    color: #dddddd;
+    padding: .5em;
+    float: left;
+    width: auto;
+}
+#holdings{
+    background-color: #333333;
+    padding: 1em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6em;
+    border-radius: 10px;
+    text-align: center;
+}
+.h_item{
+    padding-left:1em;
+    padding-right:1em;
+    color: #dddddd;
+    font-size: 2em;
+}
+.spot_panel{
+    display: inline-block;
+    font-size: 1em;
+    border-collapse: separate;
+    border-spacing: .5em;
+}
+
+#info_panel{
+    height: auto;
+    width: 120em;
+    background-color: rgba(51, 51, 51, 0.65);
+    margin: auto;
+    margin-bottom: 10em;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+.holdings{
+    background-color: #161616;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-top: .5em;
+    padding-bottom: 2.3em;
+}
+
+.holdings > table, th, td{
+    border-collapse: separate;
+    border-spacing: 1.2em;
+}
+
+.holdings > table{
+    display: inline-block;
+}
+
+.tdRed{
+    color: red;
+}
+
+.tdGreen{
+    color: greenyellow;
+}
+
+.holding_toolbar{
+    width: 20%;
+    height: 100%; 
+    background-color: #161616; 
+    border-radius: 10px; 
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: .2em; 
+    padding-bottom: .2em;
+    display: inline-block;
+    overflow: hidden;
+}
